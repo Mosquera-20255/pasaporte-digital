@@ -1,0 +1,111 @@
+/* frontend/src/components/Login.css (Versión Recrearte) */
+@keyframes border-chase {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 40px 20px;
+    background: radial-gradient(circle, #4B2F86, #492D82);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.login-form {
+    background-color: #4B2F86;
+    padding: 3rem;
+    border-radius: 12px;
+    max-width: 450px;
+    width: 90%;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    color: white;
+}
+
+    .login-form::before {
+        content: '';
+        position: absolute;
+        z-index: -2;
+        left: -50%;
+        top: -50%;
+        width: 200%;
+        height: 200%;
+        background-repeat: no-repeat;
+        background-size: 50% 50%, 50% 50%;
+        background-position: 0 0, 100% 0, 100% 100%, 0 100%;
+        background-image: linear-gradient(#FFD600, #FFD600), linear-gradient(#492D82, #492D82), linear-gradient(#FFD600, #FFD600), linear-gradient(#492D82, #492D82);
+        animation: border-chase 6s linear infinite;
+    }
+
+    .login-form::after {
+        content: '';
+        position: absolute;
+        z-index: -1;
+        inset: 4px;
+        background: #4B2F86;
+        border-radius: 8px;
+    }
+
+.login-title {
+    font-family: 'Anton', sans-serif;
+    color: #FFD600;
+    font-size: 2.8rem;
+    margin-bottom: 35px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    text-align: center;
+}
+
+.input-group {
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+    .input-group label {
+        display: block;
+        color: rgba(255, 255, 255, 0.8);
+        margin-bottom: 8px;
+        font-weight: bold;
+        font-size: 0.9rem;
+    }
+
+    .input-group input {
+        width: 100%;
+        padding: 12px;
+        border-radius: 8px;
+        border: 2px solid rgba(255,255,255,0.2);
+        background-color: transparent;
+        font-size: 1rem;
+        color: white;
+        transition: all 0.3s ease;
+    }
+
+        .input-group input:focus {
+            outline: none;
+            border-color: #FFD600;
+        }
+
+.login-button {
+    width: 100%;
+    padding: 15px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #FFD600;
+    color: #4B2F86;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+    .login-button:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 20px rgba(255, 214, 0, 0.5);
+    }

@@ -1,0 +1,103 @@
+/* frontend/src/components/IngresoAsistente.css */
+@keyframes border-chase {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.ingreso-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 40px 20px;
+    background: radial-gradient(circle, #4B2F86, #492D82);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.ingreso-form {
+    background-color: #4B2F86;
+    padding: 3rem;
+    border-radius: 12px;
+    max-width: 500px;
+    width: 90%;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    color: white;
+    text-align: center;
+}
+
+    .ingreso-form::before {
+        content: '';
+        position: absolute;
+        z-index: -2;
+        left: -50%;
+        top: -50%;
+        width: 200%;
+        height: 200%;
+        background-repeat: no-repeat;
+        background-size: 50% 50%, 50% 50%;
+        background-position: 0 0, 100% 0, 100% 100%, 0 100%;
+        background-image: linear-gradient(#FFD600, #FFD600), linear-gradient(#492D82, #492D82), linear-gradient(#FFD600, #FFD600), linear-gradient(#492D82, #492D82);
+        animation: border-chase 6s linear infinite;
+    }
+
+    .ingreso-form::after {
+        content: '';
+        position: absolute;
+        z-index: -1;
+        inset: 4px;
+        background: #4B2F86;
+        border-radius: 8px;
+    }
+
+.ingreso-title {
+    font-family: 'Anton', sans-serif;
+    color: #FFD600;
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.ingreso-form p {
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 30px;
+}
+
+.input-group {
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+    .input-group label {
+        display: block;
+        color: rgba(255, 255, 255, 0.8);
+        margin-bottom: 8px;
+        font-weight: bold;
+    }
+
+    .input-group input {
+        width: 100%;
+        padding: 12px;
+        border-radius: 8px;
+        border: 2px solid rgba(255,255,255,0.2);
+        background-color: transparent;
+        font-size: 1.2rem;
+        color: white;
+        transition: all 0.3s ease;
+        box-sizing: border-box;
+    }
+
+.ingreso-button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: #FFD600;
+    color: #4B2F86;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+}

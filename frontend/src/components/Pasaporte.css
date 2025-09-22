@@ -1,0 +1,114 @@
+/* frontend/src/components/Pasaporte.css (Versión Recrearte) */
+@keyframes border-chase {
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes pulse-shadow {
+	0% {
+		box-shadow: 0 0 15px rgba(255, 214, 0, 0.4);
+	}
+
+	50% {
+		box-shadow: 0 0 35px rgba(255, 214, 0, 0.9);
+	}
+
+	100% {
+		box-shadow: 0 0 15px rgba(255, 214, 0, 0.4);
+	}
+}
+
+.pasaporte-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: radial-gradient(circle, #4B2F86, #492D82);
+	padding: 20px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.pasaporte-card {
+	background-color: #4B2F86; /* Morado del contenedor */
+	padding: 2.5rem 2rem;
+	border-radius: 12px;
+	max-width: 380px;
+	width: 90%;
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+	border: none;
+	color: white;
+}
+
+	/* --- La Magia de la Animación del Borde --- */
+	.pasaporte-card::before {
+		content: '';
+		position: absolute;
+		z-index: -2;
+		left: -50%;
+		top: -50%;
+		width: 200%;
+		height: 200%;
+		background-color: #331c5f;
+		background-repeat: no-repeat;
+		background-size: 50% 50%, 50% 50%;
+		background-position: 0 0, 100% 0, 100% 100%, 0 100%;
+		background-image: linear-gradient(#FFD600, #FFD600), linear-gradient(#492D82, #492D82), linear-gradient(#FFD600, #FFD600), linear-gradient(#492D82, #492D82);
+		animation: border-chase 6s linear infinite;
+	}
+
+	.pasaporte-card::after {
+		content: '';
+		position: absolute;
+		z-index: -1;
+		inset: 4px;
+		background: #4B2F86; /* El mismo morado del contenedor */
+		border-radius: 8px;
+	}
+/* ----------------------------------------- */
+
+
+.pasaporte-title {
+	font-family: 'Anton', sans-serif;
+	color: #FFD600; /* Amarillo acento */
+	font-size: 2.2rem;
+	text-transform: uppercase;
+	margin: 0;
+	letter-spacing: 1.5px;
+}
+
+.pasaporte-subtitle {
+	color: rgba(255, 255, 255, 0.8);
+	font-size: 1rem;
+	margin-top: 5px;
+	margin-bottom: 30px;
+	font-weight: bold;
+}
+
+.qr-container {
+	padding: 20px;
+	background-color: white;
+	border-radius: 10px;
+	margin: 0 auto 30px auto;
+	display: inline-block;
+	animation: pulse-shadow 3s ease-in-out infinite; /* Sombra pulsante */
+}
+
+.documento-info {
+	font-weight: bold;
+	color: rgba(255, 255, 255, 0.9);
+	font-size: 1.2rem;
+	background-color: rgba(0,0,0,0.2);
+	padding: 10px;
+	border-radius: 8px;
+}
+
+.instruccion {
+	color: rgba(255, 255, 255, 0.7);
+	margin-top: 25px;
+	font-size: 0.9rem;
+}

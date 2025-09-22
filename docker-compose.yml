@@ -1,0 +1,43 @@
+version: '3.8'
+
+services:
+  # Servicio de la Base de Datos
+  db:
+    image: postgres:15-alpine
+    container_name: festival_db
+    restart: always
+    environment:
+      - POSTGRES_USER=${DB_USER}
+      - POSTGRES_PASSWORD=${DB_PASSWORD}
+      - POSTGRES_DB=${DB_DATABASE}
+    ports:
+      - '5432:5432'
+    volumes:
+      - festival_data:/var/lib/postgresql/data
+
+  # Servicio del Backend
+  backend:
+    container_name: festival_backend
+    build: ./backend  # Le dice a Docker que construya usando el Dockerfile de la carpeta backend
+    restart: always
+    ports:
+      - '5000:5000'
+    environment:
+      - DB_USER=${DB_USER}
+      - DB_PASSWORD=${DB_PASSWORD}
+      - DB_DATABASE=${DB_DATABASE}
+      - DB_HOST=db  # IMPORTANTE: El host es el nombre del servicio de la BD
+      - DB_PORT=5432
+    depends_on:
+      - db # Le indica que no inicie hasta que el servicio 'db' esté listo
+
+  # Servicio del Frontend
+  frontend:
+    container_name: festival_frontend
+    build: ./frontend # Construye usando el Dockerfile de la carpeta frontend
+    restart: always
+    ports:
+      - '3000:80' # Mapea el puerto 3000 de tu máquina al puerto 80 del contenedor Nginx
+    tty: true
+volumes:
+  festival_data: # Define el volumen para persistir los datos de la BD

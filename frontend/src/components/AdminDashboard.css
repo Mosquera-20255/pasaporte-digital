@@ -1,0 +1,66 @@
+/* frontend/src/components/AdminDashboard.css */
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding: 40px 20px;
+    background: radial-gradient(circle, #4B2F86, #492D82);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.dashboard-title {
+    font-family: 'Anton', sans-serif;
+    color: #FFD600;
+    font-size: 3rem;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.eventos-lista {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.evento-card {
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    .evento-card:hover {
+        background: rgba(255, 255, 255, 0.2);
+        border-color: #FFD600;
+        transform: translateY(-5px);
+    }
+
+.evento-info h3 {
+    margin: 0 0 5px 0;
+    font-size: 1.5rem;
+}
+
+.evento-info p {
+    margin: 0;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.evento-scan-btn {
+    font-family: 'Anton', sans-serif;
+    background-color: #FFD600;
+    color: #4B2F86;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}

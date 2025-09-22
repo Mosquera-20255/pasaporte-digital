@@ -1,0 +1,99 @@
+/* frontend/src/components/Inicio.css */
+@keyframes border-chase {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.inicio-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 40px 20px;
+    background: radial-gradient(circle, #4B2F86, #492D82);
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.inicio-title {
+    font-family: 'Anton', sans-serif;
+    color: white;
+    font-size: 3.5rem;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+    .inicio-title span {
+        color: #FFD600; /* Amarillo Acento */
+    }
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap; /* Para que se adapte a móviles */
+}
+
+.portal-card {
+    background-color: #4B2F86;
+    padding: 3rem 2.5rem;
+    border-radius: 12px;
+    width: 280px;
+    height: 280px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    color: white;
+    text-decoration: none; /* Quita el subrayado de los links */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    .portal-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    }
+
+    .portal-card::before {
+        content: '';
+        position: absolute;
+        z-index: -2;
+        left: -50%;
+        top: -50%;
+        width: 200%;
+        height: 200%;
+        background-repeat: no-repeat;
+        background-size: 50% 50%, 50% 50%;
+        background-position: 0 0, 100% 0, 100% 100%, 0 100%;
+        background-image: linear-gradient(#FFD600, #FFD600), linear-gradient(#492D82, #492D82), linear-gradient(#FFD600, #FFD600), linear-gradient(#492D82, #492D82);
+        animation: border-chase 6s linear infinite;
+    }
+
+    .portal-card::after {
+        content: '';
+        position: absolute;
+        z-index: -1;
+        inset: 4px;
+        background: #4B2F86;
+        border-radius: 8px;
+    }
+
+.portal-card-icon {
+    font-size: 4rem; /* Tamaño del ícono */
+    margin-bottom: 20px;
+    color: #FFD600;
+}
+
+.portal-card-title {
+    font-family: 'Anton', sans-serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: white;
+}

@@ -1,0 +1,108 @@
+/* frontend/src/components/Escaner.css (Versión Recrearte - Vertical Centrado) */
+@keyframes border-chase {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.escaner-container {
+    display: flex;
+    flex-direction: column; /* Apila el título y la tarjeta verticalmente */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 40px 20px;
+    background: radial-gradient(circle, #4B2F86, #492D82);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.escaner-title {
+    font-family: 'Anton', sans-serif;
+    color: #FFD600;
+    font-size: 2.8rem;
+    margin-bottom: 25px; /* Espacio entre el título y la tarjeta */
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    text-align: center;
+}
+
+.escaner-card {
+    background-color: #4B2F86;
+    padding: 2.5rem 2rem;
+    border-radius: 12px;
+    max-width: 450px;
+    width: 90%;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    color: white;
+    /* Centra todo el contenido de la tarjeta */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+    .escaner-card::before {
+        content: '';
+        position: absolute;
+        z-index: -2;
+        left: -50%;
+        top: -50%;
+        width: 200%;
+        height: 200%;
+        background-repeat: no-repeat;
+        background-size: 50% 50%, 50% 50%;
+        background-position: 0 0, 100% 0, 100% 100%, 0 100%;
+        background-image: linear-gradient(#FFD600, #FFD600), linear-gradient(#492D82, #492D82), linear-gradient(#FFD600, #FFD600), linear-gradient(#492D82, #492D82);
+        animation: border-chase 6s linear infinite;
+    }
+
+    .escaner-card::after {
+        content: '';
+        position: absolute;
+        z-index: -1;
+        inset: 4px;
+        background: #4B2F86;
+        border-radius: 8px;
+    }
+
+    .escaner-card h3 {
+        color: rgba(255, 255, 255, 0.8);
+        font-size: 1.1rem;
+        margin-top: 0;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+
+#qr-reader {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 3px solid rgba(255, 255, 255, 0.2);
+    margin-bottom: 25px;
+}
+
+.feedback-scan {
+    width: 100%;
+    padding: 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: white;
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+}
+
+    .feedback-scan.success {
+        background-color: #28a745;
+    }
+
+    .feedback-scan.error {
+        background-color: #dc3545;
+    }
+
+    .feedback-scan.warning {
+        background-color: #FFD600;
+        color: #4B2F86;
+    }
