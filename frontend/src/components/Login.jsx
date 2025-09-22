@@ -1,12 +1,11 @@
 // frontend/src/components/Login.jsx
-import React, { useState } from 'react';
+// ... (importaciones)
+import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
-import { useNavigate } from 'react-router-dom'; // <-- 1. Importa useNavigate
-import './Login.css';
 
 const Login = () => {
-    const navigate = useNavigate(); // <-- 2. Inicializa
-    // ... (el resto de los useState) ...
+    const navigate = useNavigate();
+    // ... (useStates)
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
     const [error, setError] = useState('');
@@ -16,15 +15,20 @@ const Login = () => {
         setError('');
 
         try {
-            await axios.post('http://localhost:5000/api/admin/login', { username, password });
-            navigate('/admin/dashboard'); // <-- 3. Redirige al panel
+            const response = await axios.post('http://localhost:5000/api/admin/login', { username, password });
+
+            // --- Lógica para guardar el Token ---
+            const token = response.data.token;
+            localStorage.setItem('admin_token', token); // Guardamos el token
+
+            navigate('/admin/dashboard'); // Redirigimos al panel
 
         } catch (err) {
             setError('Usuario o contraseña incorrectos.');
         }
     };
-    // ... (el resto del return) ...
-    return (
+
+    return ( /* ... El JSX del return no cambia ... */
         <div className="login-container">
             <form className="login-form" onSubmit={handleLogin}>
                 <h1 className="login-title">Acceso Staff</h1>

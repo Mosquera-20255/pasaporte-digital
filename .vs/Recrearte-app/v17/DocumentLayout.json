@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Hostaddrees\\Documents\\GitHub\\Recrearte-app\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hostaddrees\\Documents\\GitHub\\Recrearte-app\\frontend\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hostaddrees\\Documents\\GitHub\\Recrearte-app\\frontend\\src\\App.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\src\\App.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hostaddrees\\Documents\\GitHub\\Recrearte-app\\backend\\crearAdmin.js||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\crearAdmin.js||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hostaddrees\\Documents\\GitHub\\Recrearte-app\\frontend\\src\\components\\ProtectedRoute.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\src\\components\\ProtectedRoute.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hostaddrees\\Documents\\GitHub\\Recrearte-app\\frontend\\src\\components\\Login.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\src\\components\\Login.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hostaddrees\\Documents\\GitHub\\Recrearte-app\\backend\\server.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\server.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hostaddrees\\Documents\\GitHub\\Recrearte-app\\frontend\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hostaddrees\\Documents\\GitHub\\Recrearte-app\\backend\\crearAdmin.js||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\crearAdmin.js||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hostaddrees\\Documents\\GitHub\\Recrearte-app\\backend\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -25,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hostaddrees\\Documents\\GitHub\\Recrearte-app\\frontend\\src\\components\\AdminDashboard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\src\\components\\AdminDashboard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hostaddrees\\Documents\\GitHub\\Recrearte-app\\frontend\\src\\components\\Login.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\src\\components\\Login.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hostaddrees\\Documents\\GitHub\\Recrearte-app\\frontend\\src\\components\\Escaner.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -102,23 +106,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "crearAdmin.js",
-              "DocumentMoniker": "C:\\Users\\Hostaddrees\\Documents\\GitHub\\Recrearte-app\\backend\\crearAdmin.js",
-              "RelativeDocumentMoniker": "backend\\crearAdmin.js",
-              "ToolTip": "C:\\Users\\Hostaddrees\\Documents\\GitHub\\Recrearte-app\\backend\\crearAdmin.js",
-              "RelativeToolTip": "backend\\crearAdmin.js",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAwBIAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-09-20T10:11:48.157Z"
+              "DocumentIndex": 1,
+              "Title": "ProtectedRoute.jsx",
+              "DocumentMoniker": "C:\\Users\\Hostaddrees\\Documents\\GitHub\\Recrearte-app\\frontend\\src\\components\\ProtectedRoute.jsx",
+              "RelativeDocumentMoniker": "frontend\\src\\components\\ProtectedRoute.jsx",
+              "ToolTip": "C:\\Users\\Hostaddrees\\Documents\\GitHub\\Recrearte-app\\frontend\\src\\components\\ProtectedRoute.jsx",
+              "RelativeToolTip": "frontend\\src\\components\\ProtectedRoute.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-09-22T18:42:19.503Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "main.jsx",
               "DocumentMoniker": "C:\\Users\\Hostaddrees\\Documents\\GitHub\\Recrearte-app\\frontend\\src\\main.jsx",
               "RelativeDocumentMoniker": "frontend\\src\\main.jsx",
@@ -131,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "AdminDashboard.jsx",
               "DocumentMoniker": "C:\\Users\\Hostaddrees\\Documents\\GitHub\\Recrearte-app\\frontend\\src\\components\\AdminDashboard.jsx",
               "RelativeDocumentMoniker": "frontend\\src\\components\\AdminDashboard.jsx",
@@ -143,7 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "AdminDashboard.css",
               "DocumentMoniker": "C:\\Users\\Hostaddrees\\Documents\\GitHub\\Recrearte-app\\frontend\\src\\components\\AdminDashboard.css",
               "RelativeDocumentMoniker": "frontend\\src\\components\\AdminDashboard.css",
@@ -155,19 +160,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "Login.jsx",
               "DocumentMoniker": "C:\\Users\\Hostaddrees\\Documents\\GitHub\\Recrearte-app\\frontend\\src\\components\\Login.jsx",
               "RelativeDocumentMoniker": "frontend\\src\\components\\Login.jsx",
               "ToolTip": "C:\\Users\\Hostaddrees\\Documents\\GitHub\\Recrearte-app\\frontend\\src\\components\\Login.jsx",
               "RelativeToolTip": "frontend\\src\\components\\Login.jsx",
-              "ViewState": "AgIAACYAAAAAAAAAAAAmwDMAAABDAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAmwD0AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-09-20T05:59:13.367Z"
+              "WhenOpened": "2025-09-20T05:59:13.367Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Escaner.jsx",
               "DocumentMoniker": "C:\\Users\\Hostaddrees\\Documents\\GitHub\\Recrearte-app\\frontend\\src\\components\\Escaner.jsx",
               "RelativeDocumentMoniker": "frontend\\src\\components\\Escaner.jsx",
@@ -179,31 +185,45 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.jsx",
+              "DocumentMoniker": "C:\\Users\\Hostaddrees\\Documents\\GitHub\\Recrearte-app\\frontend\\src\\App.jsx",
+              "RelativeDocumentMoniker": "frontend\\src\\App.jsx",
+              "ToolTip": "C:\\Users\\Hostaddrees\\Documents\\GitHub\\Recrearte-app\\frontend\\src\\App.jsx",
+              "RelativeToolTip": "frontend\\src\\App.jsx",
+              "ViewState": "AgIAABgAAAAAAAAAAAAmwCsAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-09-20T05:34:39.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "crearAdmin.js",
+              "DocumentMoniker": "C:\\Users\\Hostaddrees\\Documents\\GitHub\\Recrearte-app\\backend\\crearAdmin.js",
+              "RelativeDocumentMoniker": "backend\\crearAdmin.js",
+              "ToolTip": "C:\\Users\\Hostaddrees\\Documents\\GitHub\\Recrearte-app\\backend\\crearAdmin.js",
+              "RelativeToolTip": "backend\\crearAdmin.js",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAwBIAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-09-20T10:11:48.157Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
               "Title": "server.js",
               "DocumentMoniker": "C:\\Users\\Hostaddrees\\Documents\\GitHub\\Recrearte-app\\backend\\server.js",
               "RelativeDocumentMoniker": "backend\\server.js",
               "ToolTip": "C:\\Users\\Hostaddrees\\Documents\\GitHub\\Recrearte-app\\backend\\server.js",
               "RelativeToolTip": "backend\\server.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJUAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAAAHoAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-09-20T05:30:26.465Z"
+              "WhenOpened": "2025-09-20T05:30:26.465Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "App.jsx",
-              "DocumentMoniker": "C:\\Users\\Hostaddrees\\Documents\\GitHub\\Recrearte-app\\frontend\\src\\App.jsx",
-              "RelativeDocumentMoniker": "frontend\\src\\App.jsx",
-              "ToolTip": "C:\\Users\\Hostaddrees\\Documents\\GitHub\\Recrearte-app\\frontend\\src\\App.jsx",
-              "RelativeToolTip": "frontend\\src\\App.jsx",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAwCAAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-09-20T05:34:39.552Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "package.json",
               "DocumentMoniker": "C:\\Users\\Hostaddrees\\Documents\\GitHub\\Recrearte-app\\backend\\package.json",
               "RelativeDocumentMoniker": "backend\\package.json",
@@ -215,7 +235,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Inicio.jsx",
               "DocumentMoniker": "C:\\Users\\Hostaddrees\\Documents\\GitHub\\Recrearte-app\\frontend\\src\\components\\Inicio.jsx",
               "RelativeDocumentMoniker": "frontend\\src\\components\\Inicio.jsx",
@@ -227,7 +247,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "IngresoAsistente.jsx",
               "DocumentMoniker": "C:\\Users\\Hostaddrees\\Documents\\GitHub\\Recrearte-app\\frontend\\src\\components\\IngresoAsistente.jsx",
               "RelativeDocumentMoniker": "frontend\\src\\components\\IngresoAsistente.jsx",
@@ -239,7 +259,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "IngresoAsistente.css",
               "DocumentMoniker": "C:\\Users\\Hostaddrees\\Documents\\GitHub\\Recrearte-app\\frontend\\src\\components\\IngresoAsistente.css",
               "RelativeDocumentMoniker": "frontend\\src\\components\\IngresoAsistente.css",
@@ -251,7 +271,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Inicio.css",
               "DocumentMoniker": "C:\\Users\\Hostaddrees\\Documents\\GitHub\\Recrearte-app\\frontend\\src\\components\\Inicio.css",
               "RelativeDocumentMoniker": "frontend\\src\\components\\Inicio.css",
@@ -263,7 +283,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Escaner.css",
               "DocumentMoniker": "C:\\Users\\Hostaddrees\\Documents\\GitHub\\Recrearte-app\\frontend\\src\\components\\Escaner.css",
               "RelativeDocumentMoniker": "frontend\\src\\components\\Escaner.css",
@@ -275,7 +295,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Pasaporte.css",
               "DocumentMoniker": "C:\\Users\\Hostaddrees\\Documents\\GitHub\\Recrearte-app\\frontend\\src\\components\\Pasaporte.css",
               "RelativeDocumentMoniker": "frontend\\src\\components\\Pasaporte.css",
@@ -287,7 +307,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Registro.css",
               "DocumentMoniker": "C:\\Users\\Hostaddrees\\Documents\\GitHub\\Recrearte-app\\frontend\\src\\components\\Registro.css",
               "RelativeDocumentMoniker": "frontend\\src\\components\\Registro.css",
@@ -299,7 +319,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Login.css",
               "DocumentMoniker": "C:\\Users\\Hostaddrees\\Documents\\GitHub\\Recrearte-app\\frontend\\src\\components\\Login.css",
               "RelativeDocumentMoniker": "frontend\\src\\components\\Login.css",
@@ -311,7 +331,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "package.json",
               "DocumentMoniker": "C:\\Users\\Hostaddrees\\Documents\\GitHub\\Recrearte-app\\frontend\\package.json",
               "RelativeDocumentMoniker": "frontend\\package.json",
@@ -323,7 +343,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Registro.jsx",
               "DocumentMoniker": "C:\\Users\\Hostaddrees\\Documents\\GitHub\\Recrearte-app\\frontend\\src\\components\\Registro.jsx",
               "RelativeDocumentMoniker": "frontend\\src\\components\\Registro.jsx",
@@ -335,7 +355,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "Dockerfile",
               "DocumentMoniker": "C:\\Users\\Hostaddrees\\Documents\\GitHub\\Recrearte-app\\frontend\\Dockerfile",
               "RelativeDocumentMoniker": "frontend\\Dockerfile",
@@ -347,7 +367,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "nginx.conf",
               "DocumentMoniker": "C:\\Users\\Hostaddrees\\Documents\\GitHub\\Recrearte-app\\frontend\\nginx.conf",
               "RelativeDocumentMoniker": "frontend\\nginx.conf",
@@ -359,7 +379,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "docker-compose.yml",
               "DocumentMoniker": "C:\\Users\\Hostaddrees\\Documents\\GitHub\\Recrearte-app\\docker-compose.yml",
               "RelativeDocumentMoniker": "docker-compose.yml",
@@ -371,7 +391,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "Pasaporte.jsx",
               "DocumentMoniker": "C:\\Users\\Hostaddrees\\Documents\\GitHub\\Recrearte-app\\frontend\\src\\components\\Pasaporte.jsx",
               "RelativeDocumentMoniker": "frontend\\src\\components\\Pasaporte.jsx",
