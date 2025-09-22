@@ -1,10 +1,10 @@
-# render.yaml - Blueprint para el Pasaporte Digital (Corregido)
+# render.yaml - Blueprint para el Pasaporte Digital (Versión Final)
 
 services:
   # 1. Servicio de la Base de Datos PostgreSQL
   - type: psql
     name: pasaporte-db
-    plan: free 
+    plan: free
     postgresMajorVersion: 15
 
   # 2. Servicio del Backend (Node.js)
