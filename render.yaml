@@ -1,19 +1,19 @@
-# render.yaml - Blueprint para el Pasaporte Digital
+# render.yaml - Blueprint para el Pasaporte Digital (Corregido)
 
 services:
   # 1. Servicio de la Base de Datos PostgreSQL
   - type: psql
     name: pasaporte-db
-    plan: free # Usa el plan gratuito de Render
-    pSQLVersion: "15"
+    plan: free 
+    postgresMajorVersion: 15
 
   # 2. Servicio del Backend (Node.js)
   - type: web
     name: pasaporte-backend
     plan: free
     runtime: docker
-    dockerfilePath: ./backend/Dockerfile # Ruta al Dockerfile del backend
-    dockerContext: ./backend          # Carpeta del backend
+    dockerfilePath: ./backend/Dockerfile
+    dockerContext: ./backend
     envVars:
       - key: DB_HOST
         fromService:
@@ -36,16 +36,15 @@ services:
           name: pasaporte-db
           property: database
       - key: JWT_SECRET
-        generateValue: true # Render generará un secreto seguro automáticamente
+        generateValue: true
 
   # 3. Servicio del Frontend (React + Nginx)
   - type: web
     name: pasaporte-frontend
     plan: free
     runtime: docker
-    dockerfilePath: ./frontend/Dockerfile # Ruta al Dockerfile del frontend
-    dockerContext: ./frontend          # Carpeta del frontend
-    # Reglas de reescritura para que React Router funcione
+    dockerfilePath: ./frontend/Dockerfile
+    dockerContext: ./frontend
     routes:
       - type: rewrite
         source: /*
